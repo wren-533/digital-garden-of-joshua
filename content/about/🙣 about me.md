@@ -5,7 +5,7 @@ publish: "true"
 
 When I hear the word engineering, one of the first things that come to mind is quality: our bottom line as problem-solvers and innovators is noticing the small things and designing with them in mind. 
 
-Hi, my name is Joshua Peter. I’m an aspiring mechanical engineer in my junior year at the University of Houston. Three and a half years of experience in specialty coffee, two of which in a managerial capacity, have instilled in me the attention to detail demanded of an engineer. I hold experience in management, CAD/BIM modeling, and basic MATLAB/Python programming, with a particular interest in sustainable, human-minded design, in line with my service background. 
+Hi, my name is Joshua Peter. I’m an aspiring mechanical engineer in my senior year at the University of Houston. Three and a half years of experience in specialty coffee, two of which in a managerial capacity, have instilled in me the attention to detail demanded of an engineer. I hold experience in management, CAD/BIM modeling, and basic MATLAB/Python programming, with a particular interest in sustainable, human-minded design, in line with my service background. 
 
 I am currently interning for Schweitzer Engineering Laboratories (SEL), an electrical engineering company and the progenitor of the modern digital microprocessor-based relay, where I work with the Substation Engineering Services (SES) team in a civil/structural capacity. Above all, I am passionate about quality, working in the spirit of continuous improvement, and the Oxford comma.
 
