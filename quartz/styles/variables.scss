@@ -17,11 +17,21 @@ $tablet: "(min-width: #{map.get($breakpoints, mobile)}) and (max-width: #{map.ge
 $desktop: "(min-width: #{map.get($breakpoints, desktop)})";
 
 $pageWidth: #{map.get($breakpoints, mobile)};
-$sidePanelWidth: 320px; //380px;
+$sidePanelWidth: 380px; //380px;
 $topSpacing: 6rem;
 $boldWeight: 700;
 $semiBoldWeight: 600;
 $normalWeight: 400;
+
+// Font size hierarchy
+$fontSize-pageTitle: 2.3rem; // Site title - largest
+$fontSize-folderTitle: 1.75rem; // Explorer folder titles
+$fontSize-pageBodyTitle: 2rem; // Article titles (larger than h1)
+$fontSize-h1: 1.75rem; // Same as page body title and graph view
+$fontSize-h2: 1.4rem;
+$fontSize-h3: 1.12rem;
+$fontSize-h4-h6: 1rem;
+$fontSize-body: 1rem;
 
 $mobileGrid: (
   templateRows: "auto auto auto auto auto",

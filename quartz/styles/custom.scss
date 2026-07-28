@@ -1,3 +1,134 @@
 @use "./variables.scss" as *;
+html {
+  font-size: 110%;
+}
+footer {
+  font-size: 0.75rem;
+}
 
-// put your custom CSS here!
+/* ============================================================================
+   FONT SIZE HIERARCHY
+   ============================================================================ */
+
+/* Site title - largest */
+.page-title,
+.page-title a {
+  font-size: $fontSize-pageTitle;
+  font-weight: 400;
+}
+
+/* Article/page titles before body content - same size as explorer folders */
+.article-title {
+  font-size: $fontSize-pageBodyTitle;
+  font-weight: 400;
+}
+
+article > h1 {
+  font-size: $fontSize-pageBodyTitle;
+  font-weight: 400;
+}
+
+/* Header hierarchy */
+h1 {
+  font-size: $fontSize-h1;
+}
+
+h2 {
+  font-size: $fontSize-h2;
+}
+
+h3 {
+  font-size: $fontSize-h3;
+}
+
+h4,
+h5,
+h6 {
+  font-size: $fontSize-h4-h6;
+}
+
+/* ============================================================================
+   EXPLORER SIDEBAR STYLING
+   ============================================================================ */
+.explorer {
+  overflow: visible;
+}
+
+/* Hide the explorer collapse/expand button */
+.explorer-toggle {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Increase spacing after last child item in a folder group */
+.explorer .tree-item:last-child {
+  margin-bottom: 2rem;
+}
+
+.explorer .folder-button .folder-title,
+.explorer .folder-button {
+  font-size: $fontSize-folderTitle;
+  font-weight: 400; 
+}
+
+/* Make nested folder labels smaller than top-level folder titles */
+.explorer .tree-item-children .folder-button,
+.explorer .tree-item-children .folder-button .folder-title {
+  font-size: $fontSize-h2;
+}
+
+.explorer .nav-file-title,
+.explorer .tree-item-self {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.explorer .title-button h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.graph h3 {
+  font-size: $fontSize-h2;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+
+/* Remove bold from page list links */
+.section h3 a.internal {
+  font-size: $fontSize-h3;
+  font-weight: 400;
+}
+
+article.list-cards ul {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 0;
+    line-height: 1.3;
+    list-style-type: none;
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+    padding-inline-start: 0;
+}
+
+article.list-cards ul li {
+    overflow: hidden;
+    margin-inline-start: 0;
+    text-align: start;
+}
+
+/* Image grid styling */
+article.list-cards ul li img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
