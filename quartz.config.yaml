@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: wren-533.github.io/digital-garden-of-joshua
+  baseUrl: joshuapeter.me
   ignorePatterns:
     - private
     - templates
