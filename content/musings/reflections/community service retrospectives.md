@@ -1,6 +1,5 @@
 ---
 publish: "true"
-title: 🙣 community service retrospectives
 ---
 >[!Abstract] My relationship with volunteering
 >Volunteering is a great passion of mine that has fallen by the wayside since I graduated high school and took on additional responsibilities. I have fond memories of volunteering with great organizations like the Loaves & Fishes Soup Kitchen and the Rosenberg Railroad Museum and cherish the way they helped me expand my worldview and get to know people from different walks of life. It was a feeling I sorely missed. 

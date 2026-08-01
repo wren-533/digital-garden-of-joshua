@@ -1,6 +1,5 @@
 ---
 publish: "true"
-title: 🙣 houston, 3 vignettes
 ---
 # I.
 Tell me, won’t you, of vinyl waiting chairs

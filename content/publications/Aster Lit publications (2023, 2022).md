@@ -1,6 +1,5 @@
 ---
 publish: "true"
-title: 🙣 Aster Lit publications (2023, 2022)
 ---
 While ["A Chronicle of 9-Dollar Haircuts — These Labors of Love"](https://www.asterlit.org/lacuna-joshuapeter), published in Issue 10 — Winter 2023 of Aster Lit (themed "lacuna"), is nominally 2 standalone pieces, they were intended to complement one another. Each a wistful, colorful vignette occurring somewhere in and around my current hometown—Houston—these poems are an ode to the unremarkable, diversity, and the simple joys of day-to-day life. "A Chronicle of $9 Haircuts" is a tribute to the short-statured, impeccably groomed Peruvian hairstylist who had cut my hair for over a decade since we moved to Texas, while "These Labors of Love" champions the Cambodian proprietor of my favorite local donut/kolache shop, which I religiously visited when I was a barista before my 5:30 AM opening shifts at the coffeeshop. For me these poems were a stylistic exercise in brevity, and as somebody whose writing can tend verbose, I relished the challenge of writing something short and accessible. 
 
