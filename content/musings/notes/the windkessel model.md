@@ -1,5 +1,6 @@
 ---
 publish: "true"
+title: 🙣 the windkessel model
 ---
 > [!abstract] The inspiration for this piece
 > This summer, I had the opportunity to take arguably one of the most interesting courses of my undergraduate schooling. The monthlong course, named Biofluid Dynamics, was structured such that for the first two weeks, we reviewed key fluid mechanics principles: think Navier-Stokes, Hagen-Poiseuille, stress tensors, etc. The second two weeks was a deep dive into human anatomy: the architecture of the heart, the composition/flow of blood through the vasculature, cardiovascular pathologies and their treatment, and how fluid mechanics is essential in understanding the nuances of these concepts. 
