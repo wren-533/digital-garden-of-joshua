@@ -1,5 +1,6 @@
 ---
 publish: "true"
+title: 🙣 about me
 ---
 <img src="./attachments/Informal Headshot - Circle Cropped.png" alt="Joshua Peter" style="float: right; width: 225px; max-width: 100%; margin: 0 1rem 1rem 0;" />
 

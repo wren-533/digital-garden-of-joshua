@@ -99,6 +99,19 @@ h6 {
   text-transform: lowercase;
 }
 
+.toc h3 {
+  font-size: $fontSize-h2;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+
+.footnotes h2,
+.footnotes h3 {
+  font-size: $fontSize-h2;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+
 /* Remove bold from page list links */
 .section h3 a.internal {
   font-size: $fontSize-h3;

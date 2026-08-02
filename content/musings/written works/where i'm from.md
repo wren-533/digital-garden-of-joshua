@@ -1,5 +1,6 @@
 ---
 publish: "true"
+title: 🙣 where i'm from
 ---
 *After George Ella Lyon's poem "Where I'm From".*
 # I. son

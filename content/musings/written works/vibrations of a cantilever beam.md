@@ -1,5 +1,6 @@
 ---
 publish: "true"
+title: 🙣 vibrations of a cantilever beam
 ---
 Perhaps the magnum opus of all my lab reports for MECE 3360 – Experimental Methods, I take great pride in the writeup I did on our vibrations of a cantilever beam lab. Not because my analysis was especially thoughtful or thorough, or that it helped me gain a better intuitive understanding of vibration analysis (which it did), but because it was the first sizeable document I had typeset completely using $\rm{\LaTeX}$.
 

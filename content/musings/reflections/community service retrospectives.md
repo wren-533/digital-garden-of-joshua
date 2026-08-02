@@ -1,10 +1,11 @@
 ---
 publish: "true"
+title: 🙣 community service retrospectives
 ---
 >[!Abstract] My relationship with volunteering
 >Volunteering is a great passion of mine that has fallen by the wayside since I graduated high school and took on additional responsibilities. I have fond memories of volunteering with great organizations like the Loaves & Fishes Soup Kitchen and the Rosenberg Railroad Museum and cherish the way they helped me expand my worldview and get to know people from different walks of life. It was a feeling I sorely missed. 
 >
->When a mutual friend of friends, Jean-Paul, approached me last fall about joining [[🙣 about me|ASME-UH's]] community service committee (which he chaired), I hesitantly accepted, fearful that I would not have the time to commit. While I may not have been as involved as I would've liked, I am happy to say that over the course of my junior year, I was able to show out to several opportunities to help better the world around me. Serving alongside him and my good friends/fellow community service assistants, Vincent and Maria, and helping out those in need proved to be so gratifying. Check out some of the highlights below!
+>When a mutual friend of friends, Jean-Paul, approached me last fall about joining [[about me|ASME-UH's]] community service committee (which he chaired), I hesitantly accepted, fearful that I would not have the time to commit. While I may not have been as involved as I would've liked, I am happy to say that over the course of my junior year, I was able to show out to several opportunities to help better the world around me. Serving alongside him and my good friends/fellow community service assistants, Vincent and Maria, and helping out those in need proved to be so gratifying. Check out some of the highlights below!
 # friendsgiving (11.23.25)
 <img src="/Attachments/Friendsgiving.jpeg" style="float: right; margin-left: 1rem; margin-bottom: 1rem; margin-top: 0rem; width: 325px;" /> A photo from our community service committee friendsgiving social! Unfortunately, our other community service assistant, Astrid, couldn't make it due to some capstone deadlines :( Nonetheless, the four of us enjoyed ourselves. Maria and I spent nearly the entire day cooking together.
 

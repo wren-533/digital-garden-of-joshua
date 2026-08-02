@@ -1,5 +1,6 @@
 ---
 publish: "true"
+title: 🙣 epistemic disclosure
 ---
 To explain my perspective on epistemic disclosure, I'd do well to formally define it for you as I understand it. 
 
