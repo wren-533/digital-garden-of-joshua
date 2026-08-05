@@ -13,7 +13,7 @@ In the age of algorithms, subscriptions, mass production, and instant gratificat
 
 It is this *aliveness* and *vitality* that drew me to the digital garden format, and why I felt "portfolio" or "digital resume" would be unsuitable descriptions for this site. That would be to diminish its purpose: to build a continually growing, fertile space that inspires me to learn, to share that learned knowledge, and hopefully find like-minded people along the way. 
 
-Simply making this website required me to clone a GitHub repo and deploy it to Vercel, which I sincerely doubt I ever would've done otherwise in my impending mechanical engineering career. Building this garden—tilling the digital soil, watering the flowers, pruning the foliage—is a labor of love that I believe will make me a more well-rounded, resourceful, and knowledgeable human being.  
+Simply making this website required me to clone a repository, modify it to my taste on a code editor I heretofore had not used, obtain an appropriate domain name, and host/deploy it, all of which I sincerely doubt I ever would've done otherwise in my impending mechanical engineering career. Building this garden—tilling the digital soil, watering the flowers, pruning the foliage—is a labor of love that I believe will make me a more well-rounded, resourceful, and knowledgeable human being.  
 
 So in addition to my resume, design portfolio, and professional qualifications, you can peruse my penned poems, musings and essays, coffee/tea reviews, and more. Thank you for visiting my digital garden—I implore you to take a stroll and smell the roses.
 
