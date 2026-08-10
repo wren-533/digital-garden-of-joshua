@@ -4,7 +4,7 @@ quartz-properties: "false"
 publish: "true"
 ---
 ![[Attachments/ezra_photoshoot.jpg]]
-
+<img src="Text Divider.png" alt="Gingko Leaves" width="300px" style="display:block; margin:auto;"> 
 My name is Joshua Peter—I'm a fourth-year undergraduate mechanical engineering major at the University of Houston and aspiring Renaissance man. You've stumbled upon my digital garden: a website that is part-portfolio, -notebook, -poetry journal, -sandbox, and so much more. But what exactly is a digital garden, you might ask? 
 
 A *digital garden* is a digital space centered around the idea that we have much to gain from owning, accumulating, and maintaining (cultivating, or "gardening") personal knowledge. Personal knowledge can be defined as broadly or narrowly as you please—grocery lists, calculus notes, book marginalia, transcripts of impromptu 3 AM therapy sessions with your friend—anything goes so long as it holds meaning to you. 

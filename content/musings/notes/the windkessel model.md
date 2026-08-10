@@ -49,7 +49,7 @@ This gives us yet another parameter to play with in our cardiovascular system-ci
 
 Now that we know the cardiovascular system has at least a resistive and capacitive element, it's not all that crazy anymore to say that we can model it as a circuit—specifically, an RC circuit. We call this a 2-element Windkessel model. 
 
-<img src="RC Circuit Schematic.png" width="300px" style="display:block; margin:auto;">
+<img src="RC Circuit Schematic.png" alt="RC Circuit Schematic" width="300px" style="display:block; margin:auto;">
 
 The equation for the circuit above is given by
 $$

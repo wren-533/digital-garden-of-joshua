@@ -88,6 +88,12 @@ h6 {
   margin-bottom: 0.25rem;
 }
 
+/* Explorer file links do not include a hover color by default */
+.explorer .explorer-content ul li > a:hover {
+  color: var(--tertiary);
+  opacity: 1;
+}
+
 .explorer .title-button h2 {
   font-size: 1.5rem;
   margin: 0;
@@ -144,4 +150,271 @@ article.list-cards ul li img {
     border-radius: 4px;
     object-fit: cover;
     aspect-ratio: 1;
+}
+
+/* Remove frame treatment around the site search UI */
+.search .search-button,
+.search .search-container,
+.search .search-bar {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none;
+}
+
+/* Keep the search trigger visually minimal */
+.search .search-button {
+  background: transparent;
+}
+
+/* Recolor homepage signature for dark mode readability */
+body.theme-dark[data-slug="index"] img[alt="Signature"] {
+  filter: brightness(0) invert(1) saturate(0);
+}
+
+body.theme-dark img[alt="RC Circuit Schematic"] {
+  filter: brightness(0) invert(1) saturate(0);
+}
+
+// body {
+//   background-color: #f8f7f2;
+//   background-image:
+//     linear-gradient(to right, rgba(103, 173, 185, 0.15) 1px, transparent 1px),
+//     linear-gradient(to bottom, rgba(103, 173, 185, 0.15) 1px, transparent 1px),
+//     linear-gradient(#e9e7de 0.1em, transparent 0.1em);
+//   background-size: 1.5em 1.5em, 1.5em 1.5em, 100% 1.5em;
+// }
+
+/* Sunlit background effect inspired by jackyzha0/sunlit */
+#quartz-body {
+  position: relative;
+  z-index: 1;
+}
+
+#dappled-light {
+  --sunlit-day: #fffdfa;
+  --sunlit-evening: #fccc83;
+  --sunlit-dusk: #db7a2a;
+  --sunlit-night: #0f131c;
+  --sunlit-bounce-light: #f5d7a6;
+  --sunlit-shadow: #1a1917;
+  --sunlit-timing-fn: cubic-bezier(0.455, 0.19, 0, 0.985);
+
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  overflow: hidden;
+}
+
+body.theme-dark #dappled-light {
+  --sunlit-bounce-light: #1b293f;
+  --sunlit-shadow: #030307;
+}
+
+#progressive-blur {
+  position: absolute;
+  inset: 0;
+}
+
+#progressive-blur > div {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(var(--blur-amount));
+  mask-image: linear-gradient(
+    252deg,
+    transparent,
+    transparent var(--stop1),
+    black var(--stop2),
+    black
+  );
+}
+
+#progressive-blur > div:nth-child(1) {
+  --blur-amount: 6px;
+  --stop1: 0%;
+  --stop2: 0%;
+}
+
+#progressive-blur > div:nth-child(2) {
+  --blur-amount: 12px;
+  --stop1: 40%;
+  --stop2: 80%;
+}
+
+#progressive-blur > div:nth-child(3) {
+  --blur-amount: 48px;
+  --stop1: 40%;
+  --stop2: 70%;
+}
+
+#progressive-blur > div:nth-child(4) {
+  --blur-amount: 96px;
+  --stop1: 70%;
+  --stop2: 80%;
+}
+
+#glow {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(309deg, var(--sunlit-bounce-light), var(--sunlit-bounce-light) 20%, transparent);
+  transition: background 1s var(--sunlit-timing-fn);
+  opacity: 0.28;
+}
+
+#glow-bounce {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(355deg, var(--sunlit-bounce-light) 0%, transparent 30%, transparent 100%);
+  transition: background 1s var(--sunlit-timing-fn);
+  opacity: 0.4;
+}
+
+.perspective {
+  position: absolute;
+  top: -30vh;
+  right: 0;
+  width: 80vw;
+  height: 130vh;
+  opacity: 0.07;
+  background-blend-mode: darken;
+  transform-origin: top right;
+  transform-style: preserve-3d;
+  transition: transform 1.7s var(--sunlit-timing-fn), opacity 4s ease;
+  transform: matrix3d(
+    0.75,
+    -0.0625,
+    0,
+    0.0008,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+  );
+}
+
+body.theme-dark .perspective {
+  opacity: 0.3;
+  transform: matrix3d(
+    0.8333,
+    0.0833,
+    0,
+    0.0003,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+  );
+}
+
+#leaves {
+  position: absolute;
+  bottom: -20px;
+  right: -700px;
+  width: 1600px;
+  height: 1400px;
+  background-image: url("/static/leaves.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: url(#wind);
+  animation: billow 8s ease-in-out infinite;
+}
+
+#blinds {
+  position: relative;
+  width: 100%;
+}
+
+#blinds .shutter,
+#blinds .bar {
+  background-color: var(--sunlit-shadow);
+}
+
+#blinds > .shutters {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 60px;
+  transition: gap 1s var(--sunlit-timing-fn);
+}
+
+body.theme-dark #blinds > .shutters {
+  gap: 20px;
+}
+
+#blinds > .vertical {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.vertical > .bar {
+  width: 5px;
+  height: 100%;
+}
+
+.shutter {
+  width: 100%;
+  height: 40px;
+  transition: height 1s var(--sunlit-timing-fn);
+}
+
+body.theme-dark .shutter {
+  height: 80px;
+}
+
+@keyframes billow {
+  0% {
+    transform: perspective(400px) rotateX(0deg) rotateY(0deg) scale(1);
+  }
+
+  25% {
+    transform: perspective(400px) rotateX(1deg) rotateY(2deg) scale(1.02);
+  }
+
+  50% {
+    transform: perspective(400px) rotateX(-4deg) rotateY(-2deg) scale(0.97);
+  }
+
+  75% {
+    transform: perspective(400px) rotateX(1deg) rotateY(-1deg) scale(1.04);
+  }
+
+  100% {
+    transform: perspective(400px) rotateX(0deg) rotateY(0deg) scale(1);
+  }
+}
+
+@media all and (max-width: 800px) {
+  .perspective {
+    width: 120vw;
+    right: -20vw;
+    top: -20vh;
+  }
+
+  #leaves {
+    right: -860px;
+    width: 1500px;
+    height: 1200px;
+  }
 }
