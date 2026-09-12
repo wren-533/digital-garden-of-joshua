@@ -51,7 +51,6 @@ We also foresee data collection/processing being an obstacle since our team has 
 ## 4. fabrication
 Integral to the design solution is the precise manufacturability and assembly of the parts and models we will use. All of the parts need to have tight tolerances to ensure rotation and wind interaction maximize the efficiency of the machine.
 
-# references
 [^1]: https://www.ecoflow.com/us/blog/vertical-wind-turbines-for-homes-pros-cons-output
 [^2]: https://css.umich.edu/publications/factsheets/energy/wind-energy-factsheet
 [^3]: https://www.energy.gov/cmei/wind/articles/wind-turbines-bigger-better
