@@ -16,15 +16,11 @@ Enter vertical-axis wind turbines (VAWTs), which, despite their comparatively lo
   </figcaption>
 </figure>
 # table of major constraints
-|                                                                                        |                                                                                                                                                                                                                                                        |
-| :------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                     **Constraint**                                     |                                                                                                                     **Challenge**                                                                                                                      |
-|                      Urban/Suburban Wind Speeds*<br>$V_{\infty}$                       | Our VAWT must be operational through a range of urban/suburban wind speeds; this should fall well within the range of cut-in/cut-out speeds—the wind speeds at which the turbine begins to produce power and shut off to prevent damage, respectively. |
-|              Tip Speed Ratio*<br>$\lambda = \dfrac{r \omega}{V_{\infty}}$              |                                                     A high fidelity model should have the same tip speed ratio—the ratio of blade tangential velocity to bulk fluid velocity—as a full-size VAWT.                                                      |
-|                         Solidity*<br>$\sigma = \dfrac{Nc}{r}$                          |      Solidity—a function of the number of blades, blade chord length, and radius—is a measure of aerodynamic blockage and the actual incident wind area of the turbine. A high fidelity model should have the same solidity as a full-size VAWT.       |
-|                            Betz's Law<br>$C_{p}\leq 0.593$                             |                                                                       All turbines have a maximum possible wind energy capture of 59.3%, as analytically affirmed by Betz’s Law.                                                                       |
-|          Turbulence Intensity*<br>$T_{I} = \dfrac{\sigma}{V_{\mathrm{avg}}}$           |                                  By use of the turbulence intensity formula and the data collected by anemometers, we can determine turbulence intensity and any positive/negative effects it might have on the VAWT.                                  |
-| Wind Power Density*<br>$\mathrm{WPD} = \dfrac{P}{A}=\dfrac{1}{2}\rho V_{\infty}^3$<br> |                                   Our VAWT swept area is directly informed by our target kinetic energy flux or wind power density. Depending on the desired power output, the area should be modified accordingly.                                    |
+<figure>
+  <img src="TOMC 1.png" 
+       style="width:95%">
+</figure>
+
 <figure>
   <img src="Betz's Law.png" 
        alt="Betz's Law illustration" 
@@ -33,12 +29,11 @@ Enter vertical-axis wind turbines (VAWTs), which, despite their comparatively lo
     Fig. 2 — Not all wind energy incident upon a wind turbine is not absorbed/converted into electricity. This concept is proven by Betz's Law.
   </figcaption>
 </figure>
+<figure>
+  <img src="TOMC 2.png" 
+       style="width:95%">
+</figure>
 
-|                                                                 |                                                                                                                                                                                                                                                                    |
-| :-------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                         **Constraint**                          |                                                                                                                           **Challenge**                                                                                                                            |
-| Wind Tunnel Size*<br>$h_{\mathrm{VAWT}}, \; d_{\mathrm{rotor}}$ | Overall VAWT height and rotor diameter should be such that reductions in local flow at the wind tunnel walls negatively impact the experimental efficiency (no-slip boundary condition). Thus, our VAWT must be smaller than the wind tunnel by a sizeable margin. |
-|                        Device Anchoring*                        |      The wind tunnel has existing anchoring holes that were drilled in during previous VAWT aerodynamic testing. We aim to design our VAWT to use the existing anchor bolt pattern, so as to avoid time and effort costs associated with drilling new holes.       |
 $^*$Numerical quantifications to be added upon further research/investigation. A detailed literature review will be performed to assess typical values for each of the parameters above, and calculations will be performed to obtain their proportionally smaller scale model values as needed. 
 # technical analysis
 Before developing our design, we will conduct a field visit to analyze suburban wind speeds using an anemometer. Using this information, we will find the self-starting speed and turbulence intensity for our VAWT using accurate field working conditions. 
