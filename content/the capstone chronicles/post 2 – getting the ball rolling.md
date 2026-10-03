@@ -16,7 +16,9 @@ Enter vertical-axis wind turbines (VAWTs), which, despite their comparatively lo
   </figcaption>
 </figure>
 
+
 # table of major constraints
+
 
 <figure>
   <img src="TOMC 1.png" 
@@ -56,6 +58,7 @@ Furthermore, equipment acquisition for the validation phase needs to be decided 
     Dr. Yang's shared lab space.
   </figcaption>
 </figure>
+
 We have been recommended by our technical advisors for this project, Dr. Di Yang and Dr. Kelly Huang, to become more knowledgeable in VAWTs by reading peer-reviewed articles they recommended and becoming familiar with low-level concepts before the team starts to further define the project plan. Some of the authors they recommended reading from are Dr. John Dabiri, Dr. Daniel Araya, and Dr. Di Yang himself, specifically their articles about tip speed ratio, solidity, and gearboxes in VAWTs.
 
 
