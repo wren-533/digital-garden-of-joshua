@@ -15,7 +15,9 @@ Enter vertical-axis wind turbines (VAWTs), which, despite their comparatively lo
     Fig. 1 — Different kinds of vertical axis wind turbines (VAWTs): (a) Savonius; (b) Darrieus with “egg beater” design rotor; (c) H-shape blades; (d) helix shape blades.
   </figcaption>
 </figure>
+
 # table of major constraints
+
 <figure>
   <img src="TOMC 1.png" 
        style="width:95%">
