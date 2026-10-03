@@ -1,3 +1,7 @@
+---
+publish: "true"
+title: "🙣 post 2: getting the ball rolling"
+---
 # technical problem statement
 Horizontal-axis wind turbines (HAWTs) are the more prevalent form of wind turbine, often employed *en masse* in commercial wind farms. However, despite their relatively high efficiency (0.45-0.55), they come with trade-offs: namely, a large footprint (hub heights often ≥ 45 m, rotor diameters often exceeding 130 m) and low operational tolerance for turbulent/multidirectional flows. 
 
