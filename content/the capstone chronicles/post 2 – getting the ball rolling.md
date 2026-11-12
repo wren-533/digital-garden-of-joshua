@@ -49,6 +49,7 @@ We will also use finite element analysis (FEA) with COMSOL to understand the str
 Some of the parts that we will need for the turbine will need to be manufactured either internally at UH in the machine shop or externally by a specific manufacturer depending on the requirements of the parts we need. Therefore, it will be imperative to ensure our schedule takes into account the time it will take for these parts to be made, as well as any delays that may occur due to scheduling issues or unexpected events. 
 
 Furthermore, equipment acquisition for the validation phase needs to be decided on, as compatibility with our turbine as well as calibration of the sensors need to be taken into account in the pre-testing preparation. Lastly, wind tunnel testing scheduling needs to be sorted in advance. The wind tunnel is managed by Dr. Kelly Huang, who conducts experimental testing. Scheduling conflicts need to be considered when planning our time frame for the project. 
+
 <figure>
   <img src="Wind Tunnel.png" 
        alt="Wind tunnel photo" 
