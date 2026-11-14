@@ -8,6 +8,11 @@ Quartz is a set of tools that helps you publish your [digital garden](https://jz
 
 [Join the Discord Community](https://discord.gg/cRFFHYye7t)
 
+## Date display
+
+Keep `published` and `modified` properties in `YYYY-MM-DD` format for Obsidian.
+The local NotePropertyDates transformer displays them as `MM-DD-YYYY` on the site.
+
 ## Sponsors
 
 <p align="center">
