@@ -1,5 +1,7 @@
 ---
 publish: "true"
+published: 2026-07-28
+modified: 2026-08-01
 title: 🙣 community service retrospectives
 ---
 >[!Abstract] My relationship with volunteering

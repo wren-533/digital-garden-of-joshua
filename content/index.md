@@ -1,7 +1,9 @@
 ---
 title: 🙣 welcome!
-quartz-properties: "false"
+quartz-properties: "true"
 publish: "true"
+published: 2026-07-28
+modified: 2026-08-09
 ---
 ![[Attachments/ezra_photoshoot.jpg]]
 <img src="Text Divider.png" alt="Gingko Leaves" width="300px" style="display:block; margin:auto;"> 

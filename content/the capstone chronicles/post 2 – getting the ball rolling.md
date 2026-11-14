@@ -1,5 +1,7 @@
 ---
 publish: "true"
+published: 2026-10-02
+modified: 2026-11-12
 title: "🙣 post 2: getting the ball rolling"
 ---
 # technical problem statement

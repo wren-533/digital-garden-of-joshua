@@ -1,5 +1,7 @@
 ---
 publish: "true"
+published: 2026-07-31
+modified: 2026-08-01
 title: 🙣 where i'm from
 ---
 *After George Ella Lyon's poem "Where I'm From".*

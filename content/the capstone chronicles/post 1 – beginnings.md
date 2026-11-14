@@ -1,5 +1,7 @@
 ---
 publish: "true"
+published: 2026-09-11
+modified: 2026-11-12
 title: "🙣 post 1: beginnings"
 ---
 # start here

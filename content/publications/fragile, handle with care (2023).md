@@ -1,5 +1,7 @@
 ---
 publish: "true"
+published: 2026-07-28
+modified: 2026-08-01
 title: 🙣 fragile, handle with care (2023)
 ---
 <img src="/Attachments/FHWC Art.png" alt="FHWC Art" style="float: left; margin-right: 1.5rem; margin-bottom: 1rem; margin-top: 0rem; width: 375px;" />
