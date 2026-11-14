@@ -16,7 +16,7 @@ Team Wind Waker aspires for the pitched helical VAWT design solution to achieve 
 # where we’re at (work period of nov. 1–nov. 15)
 The beginning of this work period was defined by refactoring a formal technical report pertaining to progress made in Milestone I. Values including rotor height, rotor diameter, and blade chord length had to be modified to obtain a solidity within the allowable range. This technical report is attached below for the reader’s reference:
 
-![[MECE_4340_Technical_Report___Milestone_I.pdf]]
+<iframe src="Attachments/MECE_4340_Technical_Report___Milestone_I.pdf" width="100%" height="850" style="border: none;" title="MS I Technical Report"></iframe>
 
 Utilizing the design parameters obtained therein, Joshua developed a notional MATLAB script to predict power and torque coefficient values for the unpitched helical/pitched straight-blade VAWTs, to be corroborated by Q-Blade: a wind turbine simulation platform and specialized CFD solver. As Team Wind Waker’s designated test engineer, Maylee created and refined a preliminary Q-Blade model for a pitched, helical VAWT using the following polar definition:
 
