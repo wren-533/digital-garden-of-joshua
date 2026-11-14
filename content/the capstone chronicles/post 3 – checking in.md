@@ -1,17 +1,20 @@
 ---
 publish: "true"
-title: "🙣 post 3: mid-semester checkpoint"
+title: "🙣 post 3: checking in"
 ---
-# checking in: what's changed?
+# state of the project
 Hi! It’s been some time since Team Wind Waker’s last post. Below are updated statements of work and goals, as priorities have been reassessed over the course of the semester.
+
 ## statement of work
 Team Wind Waker will perform a detailed literature review, develop functional specifications, conduct CFD and FEA analysis on components, and ultimately fabricate two VAWTs: one in the unpitched H-Darrieus configuration (intended to be a baseline upon which to measure improvement in efficiency) and a pitched helical VAWT—the actual product. While both will be 1:1 scale prototypes, only the latter will serve as the formal design solution required by MECE 4340/4341. Team Wind Waker will fix parameters such as blade helicity, number, material, and airfoil shape at those values/configurations deemed optimal by current literature, performing CFD analysis on CAD-generated VAWT models that have had their blade pitch parametrically modified so as to determine the pitch angle that results in the highest percent improvement in power coefficient $Cp$ relative to the control H-Darrieus turbine. Validation will be performed in the ATLAS lab's wind tunnel at wind conditions characteristic of Houston, Texas.
+
 ## statement of goals
 Team Wind Waker aspires for the pitched helical VAWT design solution to achieve a minimum 10% increase in power coefficient $Cp$ relative to the team-contrived unpitched control H-Darrieus turbine and a prospective generating capacity of 1 kW at an ideal sustained wind speed of 8 m/s. Team Wind Waker envisions this project as a step towards the democratization/decentralization of the means of energy production and making renewable energy production a more attractive, cost-effective, choice for consumers.
+
 # where we’re at (work period of nov. 1–nov. 15)
 The beginning of this work period was defined by refactoring a formal technical report pertaining to progress made in Milestone I. Values including rotor height, rotor diameter, and blade chord length had to be modified to obtain a solidity within the allowable range. This technical report is attached below for the reader’s reference:
 
-[Milestone I Technical Report]
+![[MECE_4340_Technical_Report___Milestone_I.pdf]]
 
 Utilizing the design parameters obtained therein, Joshua developed a notional MATLAB script to predict power and torque coefficient values for the unpitched helical/pitched straight-blade VAWTs, to be corroborated by Q-Blade: a wind turbine simulation platform and specialized CFD solver. As Team Wind Waker’s designated test engineer, Maylee created and refined a preliminary Q-Blade model for a pitched, helical VAWT using the following polar definition:
 
@@ -42,6 +45,7 @@ Finally, Arturo developed a baseline CAD model in SolidWorks for an unpitched he
     Fig. 3 — A screenshot of the unpitched, helical VAWT Solidworks model that Arturo made. 
   </figcaption>
 </figure>
+
 # where we're going (work period of nov. 15–nov. 29)
 From a preliminary design standpoint, Team Wind Waker aims to finalize the design of the pitched, helical VAWT within Q-Blade—namely the blade design, wind field, and turbine—using the controller library and structural data. Along with this, Q-Blade simulations will be conducted to generate power coefficient vs. tip speed ratio curves. Completion of these tasks will mark the end of Milestone II and will allow the team to transition into optimization-oriented aerodynamic performance simulations, using Q-Blade as the primary CFD software. 
 
