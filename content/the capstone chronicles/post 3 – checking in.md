@@ -4,6 +4,7 @@ title: "🙣 post 3: checking in"
 published: 2026-11-12
 modified: 2026-11-13
 ---
+
 # checking in: what's changed?
 Hi! It’s been some time since Team Wind Waker’s last post. Below are updated statements of work and goals, as priorities have been reassessed over the course of the semester.
 
